@@ -15,6 +15,12 @@
 */
 
 //Code here
+let me = {
+  name: "Chris",
+  age: 29,
+}
+
+me.name 
 
 
 
@@ -25,7 +31,14 @@
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
+let favoriteThings = {
+  band: "Not Nickleback",
+  food: "Moms",
+  person: "Is my favorite person",
+  book: "The Harry Potters",
+  movie: "Gone with the Wind",
+  holiday: "National pancake day"
+}//Code here
 
 
 
@@ -33,7 +46,8 @@
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = "Boeing 757"
+favoriteThings.brand = "Ben and Jerries"//Code here
 
 
 
@@ -42,6 +56,8 @@
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 
 
@@ -55,6 +71,12 @@
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
 
+let backPack = {};
+let item = 'firstPocket'
+
+backPack[item] = 'chapstick'
+backPack.color = 'red'
+
 //Code here
 
 
@@ -63,7 +85,7 @@
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+backPack //Code here
 
 
 
@@ -74,6 +96,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 
 
@@ -97,6 +120,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
@@ -120,6 +145,7 @@ var user2 = {
 */
 
 //Code Here
+let methodCollection = {}
 
 
 
